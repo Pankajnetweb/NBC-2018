@@ -27,6 +27,7 @@
 	- Paste the out put of which mpiicc in intel.md
 
 10.x. If  Intel compiler installation takes much time plz  Install openmpi  from yum repo
+
 	- rpm -qa |openmpi put the output in openmpi.md file 
 
 11. login as user in cluster and take cpi.c file from git tools folder and compile it using intelmpicc
