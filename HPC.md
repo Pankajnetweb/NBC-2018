@@ -10,14 +10,14 @@
 	- run the command ``` yum  repolist ``` put output in ``` replist.md ```
 4. Export /apps folder and /home folder as NFS.
 	- Cat /etc/exports paste in repo.md file
-5. In nodes do auto mount NFS exported folders.
-	- cd to folders and show df -h output in nfs_moun.md
+5. In nodes do automount  NFS exported folders.
+	- cd to folders and show df -h output in nfs_mount.md
 6. Download user_sync file from github tools folder and modify accounding to your master node IP and copy to /usr/sbin  in all nodes.
 	- upload the modified file as user_sync.md  to  git
 7. Create a user with git handler name , create password less login to all nodes for this user you need to run user sync in all nodes.
 	- grep git handler name from /etc/passwd copy output to user.md and ssh to <compute node> run date command copy output in password.md
 8. Install ganglia using yum , modify the conf file according to document
-	- Access browser in master node http://<master_node_ip>/ganglia  it should show all the nodes , take screen shot and upload ganglia.png
+	- Access browser in master node ``` http://<master_node_ip>/ganglia ```  it should show all the nodes , take screen shot and upload ganglia.png
 9. Install Pbspro accouding to doc
 	- Paste the pbsnodes command output in pbsnodes.md
 	- qmgr -c “p s” put the output in qmgr.md
