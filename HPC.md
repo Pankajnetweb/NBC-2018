@@ -26,7 +26,7 @@
 10. Install intel compiler in /apps/intel get the licence server from our server.
 	- Paste the out put of which mpiicc in intel.md
 
-10.x. If  Intel compiler installation takes much time plz  Install openmpi  from yum repo
+10.x. If  Intel compiler installation takes much time plz  Install openmpi  from yum repo 
 
 	- rpm -qa |openmpi put the output in openmpi.md file 
 
