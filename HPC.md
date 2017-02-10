@@ -1,5 +1,5 @@
 ### HPC Configuration and Trabuleshooting 
-#### plz  use the document provided by the  ``` PEG Team```  
+#### plz  use the document provided by the  ``` PEG Team ```  
 1. Check the hostnames of master and compute name nodes 
 	- is  master node name is able resolve through DNS
 	- is compute node name are able to resolve through DNS
@@ -7,6 +7,7 @@
 	- Cat /etc/hosts and copy output in hosts.md file in github.
 3. Prepare local repo for specific server.
 	- Cat /etc/yum.repo.d/local.repo and paste output in local.md file
+	- run the command ``` yum  repolist ``` put output in ``` replist.md ```
 4. Export /apps folder and /home folder as NFS.
 	- Cat /etc/exports paste in repo.md file
 5. In nodes do auto mount NFS exported folders.
