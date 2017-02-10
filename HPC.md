@@ -25,10 +25,12 @@
 	- run qstat paste the output in qstat.md
 10. Install intel compiler in /apps/intel get the licence server from our server.
 	- Paste the out put of which mpiicc in intel.md
+10.x. If  Intel compiler installation takes much time plz  Install openmpi  from yum repo
+	- rpm -qa |openmpi put the output in openmpi.md file 
 11. login as user in cluster and take cpi.c file from git tools folder and compile it using intelmpicc
 
  	####mpirun
-	``` mpiexec.hydra -machinefile hostfile np2 ./cpi.c ```
+	``` mpirun -machinefile hostfile np2 ./cpi.c ```
 	- paste out put in mpi.md
 
 12. Write pbs script for the above.
